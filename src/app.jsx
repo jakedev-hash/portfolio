@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Title from './components/Title';
 import Container from './components/Container';
 import ContactDetails from './components/ContactDetails';
+import Photo3 from './components/photo3';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Title />
       <Container /> {/* All sections (home, about, projects, contact) are within this */}
       <ContactDetails />
+      
     </div>
   );
 };

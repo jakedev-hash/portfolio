@@ -1,40 +1,23 @@
 .text-block4-container {
-
     position: relative;
-  
     margin-top: 1500px; /* Pushes down for spacing */
-  
-  
-  
-   margin-right: -300px;
-
-  
+    margin-right: -300px;
     text-align: right; /* Aligns content to the left */
-  
+    margin-left: 200px;
+
+
   }
-  
-  
+
   
   .text-block4-title {
-  
     font-size: 2.5rem; /* Slightly larger font size for the title */
-  
     font-weight: bold; /* Bold font for the title */
-  
     color: #000000; /* White text */
-  
     margin-bottom: 10px; /* Spacing between title and text */
-  
   }
   
-  
-  
   .text-block4-text {
-  
     font-size: 1.2rem; /* Smaller font size for the text */
-  
     color: rgba(0, 0, 0, 0.8); /* Slightly lighter white for the text */
-  
     line-height: 1.5; /* Line height for better readability */
-  
   }

@@ -1,16 +1,29 @@
-/* Container for the photo and caption */
-
-
 /* Styling for the photo image */
-.photo3-image {
-    height: auto; /* Maintain aspect ratio */
-    border: 2px solid #ccc; /* Border around the image */
-    border-radius: 8px; /* Slightly rounded corners */
+
+.photo3-container {
+
+    overflow: visible;
+    position: relative;
+  
+    outline: 2px red;
+
     margin-top: 1550px;
-    margin-left: -1400px;
-   
-   
-    width: 600px;
   }
   
+  .photo3-image {
+
+    position: absolute; /* Position relative to the nearest positioned ancestor */
   
+    bottom: 20px; /* Distance from the bottom of the parent container */
+  
+    left: -1400px; /* Distance from the left of the parent container */
+  
+    height: auto; /* Maintain aspect ratio */
+  
+    width: 600px; /* Adjust width if needed */
+  
+    border: 2px solid #ccc; /* Border around the image */
+  
+    border-radius: 8px; /* Slightly rounded corners */
+  
+  }

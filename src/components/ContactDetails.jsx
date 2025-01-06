@@ -9,8 +9,8 @@ const ContactDetails = () => {
         <p><strong>Phone:</strong> +33 07 66 13 58 99</p>
         <p>
           <strong>LinkedIn:</strong>{" "}
-          <a href="https://linkedin.com/in/yourname" target="_blank" rel="noopener noreferrer">
-            linkedin.com/in/yourname
+          <a href="https://www.linkedin.com/in/jake-clare-3a5313345/" target="_blank" rel="noopener noreferrer">
+            linkedin.com/in/jake_clare
           </a>
         </p>
 
