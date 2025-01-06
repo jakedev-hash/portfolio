@@ -1,0 +1,47 @@
+.interactive-bar-container {
+
+    position: absolute;
+  
+    top: 60px; /* Adjust based on the menu button's height */
+  
+    left: 50%;
+  
+    transform: translateX(-50%);
+  
+    height: 30px; /* Adjust as needed */
+  
+    width: 50%; /* Adjust as needed */
+  
+    background: rgb(40, 40, 40); /* Darker default color */
+  
+    border-radius: 15px;
+  
+    overflow: hidden;
+  
+    cursor: pointer;
+  
+    margin: 0 auto;
+  
+  }
+  
+  
+  
+  .interactive-bar-gradient {
+  
+    position: absolute;
+  
+    top: 0;
+  
+    left: 0;
+  
+    width: 100%;
+  
+    height: 100%;
+  
+    background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 1), rgba(30, 30, 30, 1) 70%);
+  
+    transition: background 0.1s ease-out; /* Smooth gradient updates */
+  
+    pointer-events: none; /* Prevent mouse interaction with the gradient */
+  
+  }

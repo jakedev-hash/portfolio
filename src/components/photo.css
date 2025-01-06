@@ -1,0 +1,19 @@
+.photo-container {
+
+    text-align: center; /* Centers the image horizontally */
+    margin-top: 730px; /* Add spacing from the top */
+    margin-right: 20px;
+  
+  }
+  
+  
+  
+  .portfolio-photo {
+  
+    width: 100%; /* Makes the photo responsive */
+    width: 300px; /* Limits the size of the photo */
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Adds a shadow */
+   
+  
+  }

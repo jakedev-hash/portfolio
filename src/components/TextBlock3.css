@@ -1,0 +1,41 @@
+.text-block3-container {
+
+    position: relative;
+  
+    margin-top: 700px; /* Pushes down for spacing */
+  
+  
+  
+   margin-right: -50px;
+
+   margin-left: 15px;
+  
+    text-align: left; /* Aligns content to the left */
+  
+  }
+  
+  
+  
+  .text-block3-title {
+  
+    font-size: 2.5rem; /* Slightly larger font size for the title */
+  
+    font-weight: bold; /* Bold font for the title */
+  
+    color: #fff; /* White text */
+  
+    margin-bottom: 10px; /* Spacing between title and text */
+  
+  }
+  
+  
+  
+  .text-block3-text {
+  
+    font-size: 1.5rem; /* Smaller font size for the text */
+  
+    color: rgba(255, 255, 255, 0.8); /* Slightly lighter white for the text */
+  
+    line-height: 1.5; /* Line height for better readability */
+  
+  }

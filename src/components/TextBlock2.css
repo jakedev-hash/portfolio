@@ -1,0 +1,63 @@
+.text-block2-container {
+
+  position: absolute; /* or fixed if it needs to stay during scroll */
+
+  top: 300px; /* Adjust to fix its vertical position */
+
+  left: 37%; /* Center it horizontally */
+
+  transform: translateX(-50%);
+
+  width: 46%; /* Optional: Adjust based on container width */
+
+  height: auto; /* Adjust height if needed */
+
+  text-align: center; /* Ensure proper text alignment */
+
+  margin: 0 auto; /* Center within the page */
+
+}
+  .left-content {
+    flex: 1;
+    margin-right: -530px;
+    text-align: right; /* Align text to the right side */
+    font-size: 1rem;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.7); /* Slightly lighter white text */
+    margin-top: 10px;
+  }
+  .left-content p {
+    margin-left: 10px;
+  }
+  .last-updated {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.5); /* Even lighter text for last-updated */
+  }
+  .right-content {
+    flex: 1;
+    margin-left: -150px;
+    text-align: left; /* Align text to the left side */
+    font-size: 2rem; 
+    line-height: 1.3;
+    color: #fff; /* Pure white text for the larger headline */
+    font-weight: bold;
+  }
+  .right-content h1 {
+    margin: 0;
+    line-height: 1.2;
+  }
+  @media (max-width: 768px) {
+    .text-block2-container {
+      flex-direction: column;
+      text-align: center;
+      padding: 10px; /* Maintain small padding for smaller screens */
+      height: auto; /* Allow height to adapt */
+    }
+    .left-content, .right-content {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .right-content {
+      font-size: 1.8rem;
+    }
+  }

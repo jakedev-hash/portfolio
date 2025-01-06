@@ -1,0 +1,81 @@
+.navbar-container {
+
+  display: flex;
+
+  margin-left: 34%;
+
+  align-items: center; /* Aligns items vertically in the same row */
+
+  position: absolute;
+
+  top: 65px; /* Adjust this value to align with your name and React logo */
+
+  width: 100%;
+
+}
+
+
+
+.navbar {
+
+  display: flex;
+
+  justify-content: space-evenly;
+
+  align-items: center;
+
+  background: transparent; /* No background */
+
+}
+
+
+
+.nav-item {
+
+  position: relative;
+
+  color: rgb(255, 255, 255);
+
+  font-size: 14px;
+
+  text-transform: uppercase;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  font-weight: bold;
+  
+  cursor: pointer;
+
+  padding: 0 20px;
+
+  transition: color 0.5s ease;
+
+}
+
+
+
+.nav-item:hover {
+
+  color: rgb(0, 0, 0);
+
+}
+
+
+
+.slider {
+
+  position: absolute;
+
+  bottom: 0;
+
+  height: 24px;
+
+  background: white;
+
+  border-radius: 12px;
+
+  transition: all 0.3s ease;
+
+  z-index: -1;
+
+}

@@ -1,0 +1,16 @@
+/* Container for the photo and caption */
+
+
+/* Styling for the photo image */
+.photo3-image {
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Border around the image */
+    border-radius: 8px; /* Slightly rounded corners */
+    margin-top: 1550px;
+    margin-left: -1400px;
+   
+   
+    width: 600px;
+  }
+  
+  

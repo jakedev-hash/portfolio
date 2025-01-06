@@ -1,0 +1,32 @@
+.text-block {
+    text-align: left;
+    padding: 10px;
+  
+  }
+
+.text-block h3 {
+    position: relative;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(182, 182, 182);
+    top: -55px;
+
+
+  }
+  
+  .text-block h2 {
+    position: relative;
+    top: -50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    left: 1px;
+    
+
+  
+  }
+  
+  .text-block p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }

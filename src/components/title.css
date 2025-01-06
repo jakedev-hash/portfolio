@@ -1,0 +1,9 @@
+.portfolio-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif; /* Example font */
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    color: #000000; /* Customize color */
+    margin-top: 20px;
+    margin-left: 38px;
+  }

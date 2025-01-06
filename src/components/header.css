@@ -1,0 +1,18 @@
+/* src/assets/styles/global.css or src/components/Header.css */
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .react-logo {
+    position: absolute; /* Allow the logo to be positioned relative to its parent */
+    top: 53px; /* Adjust distance from the top */
+    right: 50px !important; /* Move it to the right */
+    height: 50px !important; /* Adjust the size if needed */
+    animation: spin infinite 10s linear; /* Keep the spinning animation */
+  }
+

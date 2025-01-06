@@ -1,0 +1,51 @@
+#contact-details {
+
+    padding: 2rem;
+  
+    background-color: #121212; /* Dark background for contrast */
+  
+    color: white; /* White font for visibility */
+  
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  
+  
+  
+  #contact-details h2 {
+  
+    margin-bottom: 1.5rem;
+  
+    font-size: 1.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  
+  
+  
+  .contact-info {
+  
+    line-height: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  
+  
+  
+  .contact-info a {
+  
+    color: #00bcd4; /* Light blue for links */
+  
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  
+  
+  
+  .contact-info a:hover {
+  
+    text-decoration: underline;
+  
+  }
